@@ -5,7 +5,7 @@
 ### Objectif du TP :
 
 Réaliser l’attaque CPA d’un chiffrement AES implanté dans un FPGA à partir de traces fournies. L’attaque ne cible que le premier octet de la clé secrète. Le code de l’attaque sera développé avec MATLAB.
-![[Pasted image 20240209115004.png]]
+<img width="691" alt="Capture d’écran 2024-02-09 à 12 05 23" src="https://github.com/Robi04/CPA/assets/63416313/88c7e358-76b6-497b-82b4-3b6ac1e36222">
 
 ## Explication de code :
 
@@ -109,7 +109,7 @@ xlabel('Time Sample');
 ylabel('Correlation');
 ```
 
-![[Pasted image 20240209114035.png]]
+<img width="672" alt="Capture d’écran 2024-02-09 à 12 05 07" src="https://github.com/Robi04/CPA/assets/63416313/8f492691-2949-4baa-9381-10ebe4babe3e">
 Cette commande crée un graphique 2D montrant la corrélation de la clé la plus probable (celle avec l'indice `max_key_index`) avec toutes les autres. Les données de corrélation pour cette clé spécifique sont extraites et tracées sur le graphique.
 Cela permet de visualiser comment cette clé particulière se compare aux autres en termes de corrélation à travers différentes échantillons de temps
 
@@ -122,8 +122,7 @@ ylabel('Key');
 zlabel('Correlation');
 ```
 
-![[Pasted image 20240209115458.png]]
-
+<img width="672" alt="Capture d’écran 2024-02-09 à 11 54 52" src="https://github.com/Robi04/CPA/assets/63416313/a611ec39-f91d-4ceb-8c68-82b163e9fb80">
 ```
 surf(correlation_matrix);
 ```
