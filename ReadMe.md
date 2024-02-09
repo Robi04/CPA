@@ -123,6 +123,7 @@ zlabel('Correlation');
 ```
 
 <img width="672" alt="Capture d’écran 2024-02-09 à 11 54 52" src="https://github.com/Robi04/CPA/assets/63416313/a611ec39-f91d-4ceb-8c68-82b163e9fb80">
+
 ```
 surf(correlation_matrix);
 ```
