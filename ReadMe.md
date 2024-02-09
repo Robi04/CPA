@@ -130,3 +130,10 @@ surf(correlation_matrix);
 
 - Cette ligne crée un graphique 3D (surface) de la matrice de corrélation. La fonction `surf` est utilisée pour visualiser les données de corrélation dans un format qui montre comment la corrélation change avec différentes clés et à travers différents échantillons de temps.
 - Je ne connaissais pas cette fonction mais je trouve que le résultat est difficilement interprétable
+
+
+### Résultat : 
+```
+likely_key_byte = 43
+```
+En affichant notre likely_key_byte on trouve la valeur de 43 qui est la valeur en décimal de notre byte = 2B
